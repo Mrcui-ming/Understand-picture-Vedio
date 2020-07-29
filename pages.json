@@ -1,0 +1,81 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		}
+	    ,{
+            "path" : "pages/landscape/landscape",
+            "style" : {
+				"navigationBarTitleText": "横屏"
+			}
+        },
+		{
+		     "path" : "pages/vedio/vedio",
+		     "style" : {
+		 		"navigationBarTitleText": "精美视频"
+		 	}
+		},
+        {
+            "path" : "pages/user/user",
+            "style" : {
+        		"navigationBarTitleText": "联系我们"
+        	}
+        },
+		{
+		    "path" : "pages/imgdetail/imgDetail",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/detail/detail",
+		    "style" : {}
+		}
+        ,{
+            "path" : "pages/imgcategory/imgcategory",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/vedioplay/vedioplay",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "懂你找图",
+		"navigationBarBackgroundColor": "#000",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"list":[
+			{
+				"text":	"首页",
+				"pagePath":	"pages/index/index",
+				"iconPath":	"static/img/home.png",
+				"selectedIconPath":	"static/img/activehome.png"
+			},
+			{
+				"text":	"横屏",
+				"pagePath":	"pages/landscape/landscape",
+				"iconPath":	"static/img/newstext.png",
+				"selectedIconPath":	"static/img/activenewstext.png"
+			},
+			{
+				"text":	"精美视频",
+				"pagePath":	"pages/vedio/vedio",
+				"iconPath":	"static/img/video.png",
+				"selectedIconPath":	"static/img/activevideo.png"
+			},
+			{
+				"text":	"我的",
+				"pagePath":	"pages/user/user",
+				"iconPath":	"static/img/user.png",
+				"selectedIconPath":	"static/img/activeuser.png"
+			}
+			
+		],
+		"selectedColor": "#d9d90b"
+	}
+}
