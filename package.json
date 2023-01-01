@@ -12,6 +12,6 @@
     "@dcloudio/uni-ui": "^1.2.1",
     "less-loader": "^6.2.0",
     "moment": "^2.27.0",
-    "sass-loader": "^8.0.2"
+    "sass-loader": "^13.2.0"
   }
 }
